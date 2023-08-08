@@ -1,0 +1,1 @@
+export const itemPerPage: number[] = [10,15,20]

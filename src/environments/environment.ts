@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+   apiKey: "live_uVbzQBa9L79bXw3LDozJabGUiG5GVUJnScJLA3btvJThZQLPmMB2WsFgfMx2GWPn",
+   URL: "https://api.thecatapi.com/v1/images/search",
+   BREED_URL: "https://api.thecatapi.com/v1/breeds/"
 };
 
 /*
