@@ -27,16 +27,18 @@ A small single-page application that lets you browse and explore different cat b
 
 ## 🚀 Getting Started
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/your-username/cat-breed-explorer.git
-   ```
-   ```bash
-   cd cats
-   ```
-   ```bash
-   npm i
-   ```
-   ```bash
-   ng serve
-   ```
+```bash
+git clone https://github.com/your-username/cat-breed-explorer.git
+```
+
+```bash
+cd cats
+```
+
+```bash
+npm i
+```
+
+```bash
+ng serve
+```
