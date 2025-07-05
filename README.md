@@ -1,27 +1,34 @@
-# CatTestProject
+# Cat Breed Explorer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+A small single-page application that lets you browse and explore different cat breeds. Built with modern web technologies, it fetches images and descriptions from a public API and displays them in a clean, responsive card layout.
 
-## Development server
+![alt text](image.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🔍 Features
 
-## Code scaffolding
+- **Breed Selection**  
+  Choose any breed from a dropdown; the app will fetch and display sample images for that breed.
+- **Result Limiting**  
+  Control how many cards (images) to show at once with the “Limit” selector.
+- **Responsive Cards**  
+  Each breed card shows an avatar, title, subtitle, and “Open description” button for more details.
+- **API-driven**  
+  Uses the [TheCatAPI](https://api.thecatapi.com) to load up-to-date breed data and high-quality images.
+- **Lightweight & Fast**  
+  Minimal dependencies, quick image loading with lazy-fetching and simple caching.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📦 Tech Stack
 
-## Build
+- **Framework:** Angular
+- **Styling:** Angular Material
+- **HTTP:** HttpClient
+- **API:** TheCatAPI
+- **Bundler:** Angular CLI
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Getting Started
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/cat-breed-explorer.git
+   cd cat-breed-explorer
+   ```
